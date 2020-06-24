@@ -7,7 +7,7 @@ export default {
   output: {
     dir: 'dist',
     format: 'es', // Output bundle should use ES Module syntax
-    exports: 'named', // Export multiple named modules instead of a single default one
+    // exports: 'named', // Export multiple named modules instead of a single default one
   },
   // Do not include these 3rd party libraries in the bundled code
   external: ['react', '@babel/runtime'],
