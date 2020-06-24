@@ -1,9 +1,7 @@
 {
-  "name": "react-tinted",
+  "name": "rollup-babel-helpers-runtime-bug",
   "version": "0.0.0",
-  "description": "A react wrapper for the Tinted color wheel",
-  "main": "dist/index.js",
-  "repository": "https://github.com/zposten/react-tinted",
+  "description": "An example of a rollup babel plugin bug",
   "author": "Zach Posten <zach@posten.io>",
   "license": "MIT",
   "scripts": {
@@ -11,9 +9,7 @@
     "watch": "rollup --config --watch"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.3",
-    "@rollup/plugin-commonjs": "^13.0.0",
-    "tinted": "^0.0.3"
+    "@babel/runtime": "^7.10.3"
   },
   "peerDependencies": {
     "react": ">=16.8.3"
@@ -23,6 +19,7 @@
     "@babel/core": "^7.10.3",
     "@babel/plugin-transform-runtime": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
+    "@rollup/plugin-commonjs": "^13.0.0",
     "@babel/preset-react": "^7.10.1",
     "@rollup/plugin-babel": "^5.0.4",
     "@rollup/plugin-node-resolve": "^8.1.0",
