@@ -16,3 +16,7 @@ yarn build
 Then look at the output file at `dist/foo.js`. Notice that it has `_classCallCheck`, `_defineProperties`, and `_createClass` babel helper functions injected at the top.
 
 Now run `yarn babel foo.js` and see that those helper functions are `import`ed instead of injected, as they should be with this setup.
+
+## The Bug
+
+This repo was created to demonstrate [this bug](https://github.com/rollup/plugins/issues/475) in the babel plugin for rollup.
